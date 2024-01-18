@@ -1,0 +1,108 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+#hero {
+  margin: 64px auto;
+  width: 626px;
+}
+
+.image-hero {
+  width: 350px;
+  height: 238px;
+  margin-bottom: 32px;
+}
+
+h1 {
+  color: #3f3d56;
+  text-align: center;
+  font-family: Dosis;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+h1 span {
+  color: #ee24ff;
+  font-family: Dosis;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-content {
+  margin: 0 auto;
+  width: 540px;
+}
+
+.hero-content p {
+  margin: 0 auto;
+  color: #828282;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.hero-content p span {
+  color: #ee24ff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.hero-content p .flutuar {
+  color: #828282;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.hero-content p + p {
+  margin-top: 32px;
+}
+
+footer img {
+  width: 100%;
+}
+
+footer nav {
+  margin-bottom: 42px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: #3f3d56;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.682%;
+  text-decoration: none;
+}
+
+.line {
+  border: 1px solid #eceff2;
+  margin: 0 auto 16px;
+  width: 391px;
+}
